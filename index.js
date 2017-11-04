@@ -26,138 +26,93 @@ switch (args[0].toLowerCase()) {
 				embed: {
 					color: EMBCOLOR,
 					author: {
-						"name": "Star Fragments",
-						"url": "https://github.com/StardustBot/Stardust",
-						"icon_url": "https://i.pinimg.com/736x/2f/6b/a6/2f6ba6c37cd47061ffb209797e50bc7a--anime-kawaii-anime-chibi.jpg"
+						"name": "Pachiri-Se",
+						"icon_url": "https://media.giphy.com/media/g1EX6PH6oIRva/giphy.gif"
 					},
 					fields: [
 					{
 						name: "Main",
-						value: "help\ninfo\nping"
+						value: "Probably what you'll be using all the time."
+						value: "help\ninfo\nping\nsuggestions"
 					},		
 					{
-						name: "Roleplay",
-						value: "bite\nhug\npat\nshrug\nthumbsup\nwag\nweapon"
+						name: "VGC Commands",
+						value: "|WIP| The main function of this bot, to recollect data from past VGC years!"
+						value: "VGChelp\nVGCinfo\nVGCrules\nVGCChampions\nVGC09\nVGC10\nVGC11\nVGC12\nVGC13\nVGC14\nVGC15\nVGC16\nVGC17\nVGC18\nVGC19"
 					},					
 					{
-						name: "Music",
-						value: "musichelp\nwowaka\nnayutanseijin\ndaniwell\nkuruosa\npinnochio\nmateru\nmitchiem\n40mp\nhalysoy\nmothy\ncircus\ncrusher\njuby\nrachie"
+						name: "GIFS",
+						value: "Random GIFS to help your message become... better."
+						value: "Pachi\nHappy\nSad\nFlashback\nKanto\nJohto\nHoenn\nSinnoh\nUnova\nKalos\nAlola""
 					}
 					]
 				}
 			});
 	break;
 	
-	case "wowaka":
-			message.channel.send({
+	case "info"
+	    message.channel.send({
 				embed: {
 					color: EMBCOLOR,
 					author: {
-						"name": "wowaka profile",
-						"icon_url":"http://st.cdjapan.co.jp/pictures/l/08/46/DGLA-10002.jpg",
-						"url": "http://www.nicovideo.jp/user/11912389"
+						"name": "Pachiri-Se",
+						"icon_url": "https://media.giphy.com/media/g1EX6PH6oIRva/giphy.gif"
 					},
 					fields: [
 					{
-						name: "Recent",
-						value: "Unknown - Mother Goose\nhttp://www.nicovideo.jp/watch/sm31791630"
+						name: "What is Pachiri-Se?",
+						value: "Pachiri-Se is a Competitive Pokémon bot that will recount past Pokémon Victories in Regionals to Worlds. It is a side project worked on PaigeSmellsVGC that hopes to lend her extensive knowledge into people preparing for the next tournament, year, or is curious as to how this bot will go about."
 					},		
 					{
-						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/12484677"
-					},					
+						name: "What if I have something I want to add to this bot that isn't here?"
+						value: "Simple! Just use -pachi suggestions and follow the directions from there."
+					},		
 					{
-						name: "Status",
-						value: "Unactive"
+						name:"What if I want to help code it?"
+						value: "Follow the Suggestions above, but put in the Subject tab that you want to help code! Please then put in the message how long you've been programming, how long you've been watching/doing Pokemon, what kind of program you use to code, and a bit about yourself! PaigeSmellsVGC will then take it from there."
 					}
 					]
 				}
 			});
 	break;
-	
-	case "nayutanseijin":
-		 	message.channel.send({
+	case "suggestions"
+	    message.channel.send({
 				embed: {
 					color: EMBCOLOR,
 					author: {
-						"name": "Nayutan Seijin (NayutAlien) profile",
-						"icon_url":"https://t00.deviantart.net/_gJ6XZ8myhLxCxRZdshp9jel5AE=/fit-in/700x350/filters:fixed_height(100,100):origin()/pre00/809b/th/pre/f/2017/074/7/3/alien_alien_by_kurohaai-db2edth.png",
-						"url": "http://www.nicovideo.jp/user/49716308"
+					  "name": "Pachiri-Se",
+						"icon_url": "https://media.giphy.com/media/g1EX6PH6oIRva/giphy.gif"
 					},
 					fields: [
 					{
-						name: "Recent",
-						value: "Reverse Universe\nhttp://www.nicovideo.jp/watch/sm31843582"
-					},		
+						name: "I want to suggest something! But I don't know how to do that..."
+						value: "Fear not. Just message @PaigeSmellsWeird#3981 and use the format at the end of this message. Paige will then talk to you about what they can do, and see if you want to help make this bot. "
+					},
 					{
-						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/50857506"
-					},					
-					{
-						name: "Status",
-						value: "Active as of August 2017"
+					 name: "Format"
+					 value: "Name, Timezone, Subject of messaging, and Suggestion"
 					}
 					]
 				}
 			});
 	break;
-	
-	case "mitchie":
-		 	message.channel.send({
-				embed: {
-					color: EMBCOLOR,
-					author: {
-						"name": "MITCHIE M profile",
-						"icon_url":"https://vignette.wikia.nocookie.net/vocaloid/images/8/89/MitchieM.jpg/revision/latest/scale-to-width-down/100?cb=20120613065723",						
-						"url": "http://www.nicovideo.jp/user/22580750a"
+	case "VGCinfo"
+	    message.channel.send({
+	      embed: {
+	         color: EMCOLOR,
+	         author: {
+	           "name": "Pokemon VGC Information"
+	           "icon_url": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&ved=0ahUKEwjf08ml153XAhUD9IMKHaP5DjsQjBwIBA&url=https%3A%2F%2Fwww.serebii.net%2Fvgc%2Fvgcs.png&psig=AOvVaw134Ha_rbLjoXZFb_aPGlMq&ust=1509636215055042"
 					},
 					fields: [
 					{
-						name: "Recent",
-						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
-					},		
-					{
-						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/26375614"
-					},					
-					{
-						name: "Status",
-						value: "Active as of September 2017"
-					}
-					]
-				}
-			});
-	break;	
-		
-	case "40mp":
-		 	message.channel.send({
-				embed: {
-					color: EMBCOLOR,
-					author: {
-						"name": "40MeterP profile",
-						"icon_url":"https://vignette.wikia.nocookie.net/vocaloid/images/8/89/MitchieM.jpg/revision/latest/scale-to-width-down/100?cb=20120613065723",						
-						"url": "http://www.nicovideo.jp/user/49716308"
-					},
-					fields: [
-					{
-						name: "Recent",
-						value: "Ohedo Juliet Night\nhttp://www.nicovideo.jp/watch/sm31812792"
-					},		
-					{
-						name: "All Music",
-						value: "http://www.nicovideo.jp/mylist/26375614"
-					},					
-					{
-						name: "Status",
-						value: "Active as of September 2017"
-					}
-					]
-				}
-			});
-	break;	
-}
-	
-
-});
+						name: "Pokemon Video Game Championship Series"
+	         },
+	         {
+	           name:
+	         }
+	      }
+	    })
+	break;
 
 bot.login(process.env.BOT_TOKEN);
