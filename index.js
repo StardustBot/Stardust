@@ -43,7 +43,7 @@ switch (args[0].toLowerCase()) {
 					{
 						name: "GIFS",
 						value: "Random GIFS to help your message become... better.",
-						value: "Pachi\nHappy\nSad\nFlashback\nKanto\nJohto\nHoenn\nSinnoh\nUnova\nKalos\nAlola""
+						value: "Pachi\nHappy\nSad\nFlashback\nKanto\nJohto\nHoenn\nSinnoh\nUnova\nKalos\nAlola"
 					}
 					]
 				}
