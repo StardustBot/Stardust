@@ -32,17 +32,17 @@ switch (args[0].toLowerCase()) {
 					fields: [
 					{
 						name: "Main",
-						value: "Probably what you'll be using all the time."
+						value: "Probably what you'll be using all the time.",
 						value: "help\ninfo\nping\nsuggestions"
 					},		
 					{
 						name: "VGC Commands",
-						value: "|WIP| The main function of this bot, to recollect data from past VGC years!"
+						value: "|WIP| The main function of this bot, to recollect data from past VGC years!",
 						value: "VGChelp\nVGCinfo\nVGCrules\nVGCChampions\nVGC09\nVGC10\nVGC11\nVGC12\nVGC13\nVGC14\nVGC15\nVGC16\nVGC17\nVGC18\nVGC19"
 					},					
 					{
 						name: "GIFS",
-						value: "Random GIFS to help your message become... better."
+						value: "Random GIFS to help your message become... better.",
 						value: "Pachi\nHappy\nSad\nFlashback\nKanto\nJohto\nHoenn\nSinnoh\nUnova\nKalos\nAlola""
 					}
 					]
